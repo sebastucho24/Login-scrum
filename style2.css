@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e71d73;
+    background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,9 +56,10 @@ body {
 }
 
 .formulario {
+    border:#000000 solid 2.5px;
     border-radius: 30px;
     width: 500px;
-    height: 750px;
+    height: 850px;
     padding: 1rem;
     margin: 2rem;
     background-color: rgb(255, 255, 255);
@@ -66,8 +67,8 @@ body {
 }
 
 .create-account {
-    padding: 2.7rem 0;
-    font-size: 1.7rem;
+    padding: 2.8rem 0;
+    font-size: 2.5rem;
 }
 
 .iconos {
@@ -96,7 +97,7 @@ body {
 }
 
 .cuenta-gratis {
-    padding: 2rem 0;
+    padding: 2.5rem 0;
 }
 
 .formulario input {
@@ -120,7 +121,7 @@ body {
     border: solid thin rgb(0, 0, 0);
     padding: .7rem;
     border-radius: 2rem;
-    background-color: #e71d73;
+    background-color: #a89672;
     font-weight: 600;
     margin-top: 3rem;
     font-size: .8rem;
@@ -128,12 +129,13 @@ body {
     color: #000000;
 }
 .formulario input[type="button"] {
-    width: 60%;
+    width: 80%;
+    height: 50px;
     margin: auto;
     border: solid thin rgb(0, 0, 0);
     padding: .7rem;
     border-radius: 2rem;
-    background-color: #e71d73;
+    background-color: #a89672;
     font-weight: 600;
     margin-top: 1.5rem;
     font-size: .8rem;
